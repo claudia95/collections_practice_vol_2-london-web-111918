@@ -45,5 +45,5 @@ end
 
 def organize_schools(hash)
   location = {}
-  
+  hash.values.each
 end
