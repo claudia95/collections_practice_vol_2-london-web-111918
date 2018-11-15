@@ -36,7 +36,7 @@ def merge_data(keys, data)
       array_1 << value 
     end
   end
-  
+  array_2
 end
 
 def find_cool
