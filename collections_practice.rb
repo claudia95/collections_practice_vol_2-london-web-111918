@@ -36,7 +36,8 @@ def merge_data(keys, data)
       array_1 << value 
     end
   end
-  array_2.each_with_index.
+  array_2.each_with_index do |key, value|
+    
 end
 
 def find_cool
