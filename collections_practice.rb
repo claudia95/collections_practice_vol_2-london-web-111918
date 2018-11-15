@@ -40,7 +40,7 @@ def merge_data(keys, data)
 end
 
 def find_cool(array)
-  array.
+  array.select do ||
   
 end
 
