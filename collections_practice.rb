@@ -37,7 +37,7 @@ def merge_data(keys, data)
     end
   end
   array_2.each_with_index do |name, index|
-    array_2 << 
+    array_2 << name.merge(array_1)
     
 end
 
