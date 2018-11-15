@@ -45,5 +45,5 @@ end
 
 def organize_schools(hash)
   location = {}
-  hash.values.each { |location| location[location.values[0]]
+  hash.values.each { |location| location[location.values[0]] = []
 end
