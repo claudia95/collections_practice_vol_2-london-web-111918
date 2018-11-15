@@ -33,7 +33,7 @@ def merge_data(keys, data)
   
   date.each do |hash|
     hash.each do |key, value|
-      array_1
+      array_1 << value 
 end
 
 def find_cool
