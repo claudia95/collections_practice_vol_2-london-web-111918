@@ -27,12 +27,12 @@ def count_elements(array)
 end
   
 
-def merge_data(keys,data)
+def merge_data(keys, data)
  merged_hashes = []
  data.each do |hash|
    hash.each do |name, info|
-     keys.each do |key_val|
-       merged_hashes << key_val.merge(info) if key_val.values[0] == name
+     keys.each do |key|
+       merged_hashes << key.merge(info) if key.values[0] == name
      end
    end
  end
