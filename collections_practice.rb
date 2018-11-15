@@ -40,9 +40,9 @@ def merge_data(keys, data)
 end
 
 def find_cool(array)
-  array.select do |hashes|
-    hashes.values.include?("cool") ? hashes : nil
-  
+  array.select do |hash|
+    hash.values.include?("cool") ? hash : nil
+  end
 end
 
 def organize_schools(hash)
