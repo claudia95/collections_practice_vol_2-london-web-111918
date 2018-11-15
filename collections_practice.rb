@@ -30,6 +30,10 @@ end
 def merge_data(keys, data)
   array_1 = []
   array_2 = []
+  
+  date.each do |hash|
+    hash.each do |key, value|
+      
 end
 
 def find_cool
