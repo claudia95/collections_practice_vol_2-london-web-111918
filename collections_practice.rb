@@ -38,8 +38,8 @@ def merge_data(keys, data)
   end
   array_2.each_with_index do |name, index|
     array_2 << name.merge(array_1[index])
-    
-    
+  end
+  array_2
 end
 
 def find_cool
