@@ -41,7 +41,7 @@ end
 
 def find_cool(array)
   array.select do |hashes|
-    hashes.values.include?("cool")
+    hashes.values.include?("cool") ? hash : nil
   
 end
 
