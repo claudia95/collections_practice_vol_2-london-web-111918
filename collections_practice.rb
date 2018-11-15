@@ -27,19 +27,16 @@ def count_elements(array)
 end
   
 
-def merge_data(keys, data)
-  array_1 = []
-  array_2 = []
-  
-  date.each do |hash|
-    hash.each do |key, value|
-      array_1 << value 
-    end
-  end
-  array_2.each_with_index do |name, index|
-    array_2 << name.merge(array_1[index])
-  end
-  array_2
+def merge_data(keys,data)
+ merged_hashes = []
+ data.each do |hash|
+   hash.each do |name, info|
+     keys.each do |key_val|
+       merged_hashes << key_val.merge(info) if key_val.values[0] == name
+     end
+   end
+ end
+ merged_hashes
 end
 
 def find_cool
